@@ -127,6 +127,21 @@ body {
     background-size: cover;
 }
 
+.tekst-forside1{
+    text-align: center;
+    width: 30%;
+}
+
+.tekst-forside2{
+    text-align: center;
+    width: 30%;
+}
+
+.tekst-forside3{
+    text-align: center;
+    width: 30%;
+}
+
 .billede1-forside{
     width: 312px;
     height: 241px;
