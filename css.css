@@ -3,6 +3,14 @@ body {
     font-family: Arial;
   }
   
+p, h2 {
+    text-align: left;
+}
+
+.tekstHoejre {
+    padding-left: 12px;
+}
+
   .topnav {
     overflow: hidden;
     background-color: #ffffff;
@@ -109,7 +117,6 @@ body {
 .flex {
     display: flex;
     justify-content: center;
-    gap: 50px;
 }
 
 .coverbillede-forside{
@@ -118,8 +125,8 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    padding-right: 50%;
     background-size: cover;
+    padding-bottom: 7%;
 }
 
 .tekst-forside1{
@@ -151,9 +158,65 @@ body {
     height: 241px;
 }
 
+#col1 {
+    width: 30%;
+    text-align: center;
+  }
+  
+  #col2 {
+    width: 30%;
+    text-align: center;
+  }
+  .tekst-button { 
+    background-color: #000000;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  
+  }
+  .tekst-button:hover {
+    background-color: #EF9C79;
+    color:white;
+  }
+  
+#col1-footer{
+    width: 30%;
+    text-align: left;
+}
+#col2-footer{
+    width: 30%;
+    text-align: left;
+}
+
+#col3-footer{
+    width: 20%;
+    height: auto;
+    text-align: right;
 
 
+}
+/* Style the footer */
+.footer-container {
+    display:flex;
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    justify-content: space-around;
+    margin-top: 7%;
+    
+  }
 
+  
+ 
 
 
 
