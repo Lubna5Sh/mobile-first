@@ -11,6 +11,10 @@ p, h2 {
     padding-left: 12px;
 }
 
+.tekstTop{
+  padding-right: 12px;
+}
+
   .topnav {
     overflow: hidden;
     background-color: #ffffff;
@@ -65,9 +69,8 @@ p, h2 {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    
-
 }
+
 .button-header-forside:hover {
     background-color: #EF9C79;
     color:white;
@@ -147,15 +150,30 @@ p, h2 {
 .billede1-forside{
     width: 312px;
     height: 241px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+
 }
+
 
 .billede2-forside{
     width: 312px;
     height: 241px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+
 }
 .billede3-forside{
     width: 312px;
     height: 241px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+
 }
 
 #col1 {
