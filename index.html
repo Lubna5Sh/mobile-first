@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>a+ siam sushi</title>
+    <meta name="description" content="a+ siam sushi restaurant aarhus.">
+    <meta name="keywords" content="ad libitum, aarhus, sushi">
+    <meta name="author" content="John Doe">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -29,8 +32,8 @@
 
     <main>
         
-        <section class="flex"> 
-            <div class="tekst1-forside">
+        <section class="flex">  
+            <div class="tekst1-forside" id="col1">
                 <h2>Kvalitets sushi</h2>
                 <p>
                     <br>Kun det bedste er godt nok for vores gæster. 
@@ -39,41 +42,59 @@
                     som alle kender, til specielle ruller, som kun kan fåes hos os.
                 </p>  
             </div>
-            <img class="billede1-forside" src="images/billede1.jpg" alt="laks-avokado-sushi">
+            <img class="billede1-forside" src="images/billede1.jpg" alt="laks-avokado-sushi" id="col2">
         </section>
 
         <section class="flex">
-            <img class="billede2-forside" src="images/rognsushi.png" alt="rognsushi">
-            <div class="tekst2-forside">
-                <h2>Sushi adlibitum</h2>
-                <p> 
+            <img class="billede2-forside" src="images/rognsushi.png" alt="rognsushi" id="col1">
+            <div class="tekst2-forside" id="col2">
+                <h2 class="tekstHoejre">Sushi adlibitum</h2>
+                <p class="tekstHoejre"> 
                     <br>Hos A+ Siam Sushi Tilbyder vi suhi ad libitum, der har følgende koncept: 
                     <br>Du har bordet i op til 2 timer fra dit booking tidspunkt.
                     <br>Du bestemmer selv mængden af mad du ønsker, og kan bestille ...
-                </p>  
+                </p> 
+                <a href="#" id="col2"><button class="tekst-button">LÆSE MERE</button></a> 
             </div>
         </section>
 
         <section class="flex"> 
-            <div class="tekst3-forside">
+            <div class="tekst3-forside" id="col1">
                 <h2>Takeaway</h2>
+
                 <p>
                     <br>Under takeaway kan du vælge enten at hente din mad selv eller blive 
                         leveret hen til din dør. Du kan endda vælge den sted du vil hente din mad fra,
                     <br>Nørreport eller restauranten. Bemærk de postnummer vi lervere til!
                 </p> 
+                <a href="#" id="col1"><button class="tekst-button">BESTIL TAKEAWAY</button></a>
             </div>
-            <img class="billede2-forside" src="images/sushilaks.png" alt="sushilaks">
+            <img class="billede2-forside" src="images/sushilaks.png" alt="sushilaks" id="col2" >
         </section>
+
+        <footer class="footer-container" > 
+
+            <p id="col1-footer"> A+ Siam Sushi Restaurant<br> 
+                Frederiksgade 32 <br>
+                8000 Aarhus C <br>
+                Tlf: 86 13 62 70<br>
+                Email: kontakt@aplussiamsushi.dk <br></p> 
+
+
+                <p id="col2-footer"> 
+                    Adresse<br>
+                    Mandag til søndag: 12 - 22:30 <br>
+                    OBS. Køkkenet lukker kl. 22. <br> 
+                </p>
+                    
+                <img src="images/footerlogo.png" alt="logofooter" id="col3-footer">
+        </footer>
+
     </main>
 
+    <script src="js/js.js"></script>
 
 
 </body>
-
-
-
-<footer>
-</footer>
-
+ 
 </html>
