@@ -212,10 +212,41 @@ p, h2 {
     color: white;
     justify-content: space-around;
     margin-top: 7%;
-    
-  }
+ }
 
-  
+ @media (max-width: 768px) {
+    .flex {
+        flex-direction: column-reverse; /* Stack items vertically */ 
+        
+    } 
+    #col1,#col2{
+column-gap: 40px;
+padding: 50px;
+width: auto;
+text-align: center;
+}
+
+#tekst-button{
+    text-align: center ;
+}
+
+.footer-container{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+#col1-footer{
+    width: 30%;
+    height: 20%;
+}
+ #col3-footer{
+ width:20%;
+ height:20%;
+}
+
+
+ } 
  
 
 
