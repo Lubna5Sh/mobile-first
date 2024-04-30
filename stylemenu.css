@@ -1,10 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Inter:wght@100..900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap');
+
 body {
     margin: 0;
-    font-family: Arial;
-  }
-  
-p, h2 {
+}
+
+h4, h3, h2{
     text-align: left;
+    margin: 0 90px;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+ol {
+    text-align: left;
+    margin: 0 90px;
+    padding: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    border-width: 50px;
+    width: 40%;
+}
+
+p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.TekUnderTal{
+    margin: 0 90px;
+}
+
+hr{
+    border: none; /* Remove default border */
+    height: 1px; /* Set height of the line */
+    background-color: #000; /* Set line color */
+    margin: 20px 110px; /* Adjust margin as needed */
 }
 
 .topnav {
@@ -28,6 +63,9 @@ p, h2 {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
   .menu-links{
@@ -108,8 +146,63 @@ p, h2 {
   }
 
 
+    /* Styles for the slider container */
+    .slider-container {
+        display: flex;
+        overflow-x: auto;
+        scrollbar-width: none; /* Hide scrollbar for Firefox */
+        -ms-overflow-style: none; /* Hide scrollbar for IE/Edge */
+        margin: 0 130px;
+    }
+
+    .slider-container::-webkit-scrollbar {
+        display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+    }
+
+    /* Styles for individual cards */
+    .card {
+        flex: 0 0 auto;
+        width: 300px; /* Adjust width as needed */
+        margin-right: 20px; /* Adjust margin as needed */
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-content {
+        padding: 10px;
+    }
+
+    .card-content h3 {
+        margin: 0;
+    }
+
+
+
 
   /* Style the footer */
+
+  #col1-footer{
+    width: 30%;
+    text-align: left;
+
+}
+#col2-footer{
+    width: 30%;
+    text-align: left;
+}
+
+#col3-footer{
+    width: 20%;
+    height: auto;
+    text-align: right;
+}
+
 .footer-container {
     display:flex;
     background-color: #000000;
